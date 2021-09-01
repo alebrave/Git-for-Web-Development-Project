@@ -98,18 +98,36 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     
     30. How do I write a comment in CSS?
     /* */
-    
+
     31. How do I find out what file I am in, when I am using the command line? 
+    pwd or i think ls 
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls 
+    
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    git rm but it can break our files or folders?
+
     34. Why should I use version control? 
     35. How often should I commit to github?
+    every 20 min or so 
+
     36. What is the command we would use to push our repo up to github? 
+    git push -u origin name-lastname 
+
     37. Walk me through Lambda's git flow. 
+    cd unto folder
+    git clone
+    cd repo 
+    git checkout -b Aleska-ortega
+    git add .
+    git commit -m ""
+    git push -u  origin Aleska-ortega
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+    from what I found on google 
     2. What happens when an element is positioned absolutely? 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
